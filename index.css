@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serifs;
+}
+
+body {
+    background: white;
+}
+
+nav {
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navbar-nav .nav-item1 .nav-link {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navbar-nav .nav-item1 .nav-link:hover {
+    color: #b00000;
+    text-decoration: 3px underline #b00000;
+    text-underline-offset: 10px;
+}
+
+
+
+.list {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.listitems:hover {
+    color: #b00000;
+    text-decoration: 3px underline #b00000;
+    text-underline-offset: 10px;
+}
+
+.heading {
+    color: #2E2E2E;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77.5px;
+}
+
+
+.paragraph1 {
+
+    color: #808080;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+}
+
+.btn1 {
+    font-size: 10px;
+    font-style: normal;
+
+}
+
+.btn2 {
+    font-size: 10px;
+    font-style: normal;
+
+}
+
+.heading2 {
+    color: #2E2E2E;
+    font-family: Poppins;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.paragraph2 {
+
+    color: #18191F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+}
+
+.icons {
+    align-items: center;
+}
+
+.heading3 {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.paragraph3 {
+
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+
+}
+
+.red-switch {
+    background-color: #b00000;
+
+}
+
+
+.heading4 {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.paragraph4 {
+
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.label {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.heading5 {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    cursor: pointer;
+
+}
+
+.line {
+    border-bottom: 5px solid #c4c4c4;
+    transition: border-color 0.3s;
+    width: 80%;
+    height: 20px;
+}
+
+.heading5:hover+.line {
+    border-color: #b00000;
+}
+
+
+.list-group-item {
+    border: none;
+    padding: 0;
+    padding-top: 20px;
+}
+
+
+.relative {
+    position: relative;
+    width: auto;
+    height: 700px;
+
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+}
+
+.absolute1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1
+}
+
+.absolute2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    z-index: 2;
+
+}
+
+.absolute3 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+    z-index: 2;
+
+
+}
+
+.absolute4 {
+    position: absolute;
+    top: 0%;
+    left: 65%;
+
+    z-index: 2;
+
+}
+
+.absolute5 {
+    position: absolute;
+    top: 70%;
+    left: 65%;
+
+    z-index: 2;
+
+}
+
+.heading6 {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.card1 {
+    width: 299px;
+
+    border-radius: 15px;
+    border: 1.5px solid #C4C4C4;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.cardprice {
+    color: #000;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.paragraph6 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.cardtitle {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.cardtext {
+    color: #000;
+    width: 237px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.imgcontent1 {
+    width: 254px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.list-group-item {
+    color: #808080;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.imgcontent2 {
+    width: 300px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.imgcontent3 {
+    width: 200px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.cardname {
+    color: #18191F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.lead {
+    color: #969BAB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.red {
+    background: #B00000;
+    ;
+}
+
+.titlehead {
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.subhead {
+    color: #e6e6e6df;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.paragraphfoot {
+    color: #e6e6e6df;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}

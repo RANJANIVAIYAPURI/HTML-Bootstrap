@@ -166,6 +166,17 @@ nav {
 
 }
 
+.discount {
+    border-radius: 8px;
+    background: #FFE87A;
+    color: #000;
+    text-align: center;
+    font-size: 7px;
+    font-weight: 500;
+    line-height: 9px;
+    padding:5px;
+}
+
 .heading5 {
     color: #000;
     text-align: center;
@@ -409,7 +420,11 @@ nav {
         font-size: 14px;
     }
 
-
+    .discount {
+        
+        font-size: 5px;
+       
+    }
 
     .form-check-input {
         width: 40px;
